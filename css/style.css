@@ -1,4 +1,6 @@
 /********** Template CSS **********/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Playfair+Display&family=Caveat&display=swap');
+
 :root {
     --primary: #348E38;
     --secondary: #525368;
