@@ -1,5 +1,44 @@
 /********** Template CSS **********/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Playfair+Display&family=Caveat&display=swap');
+.contact-label {
+  position: fixed;
+  bottom: 110px;
+  left: 20px;
+  background: #4CAF50;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  font-family: Arial, sans-serif;
+}
+
+.contact-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 1000;
+  font-family: Arial, sans-serif;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  padding: 5px 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s;
+}
+
+.contact-btn img {
+  width: 50px;
+  height: 50px
 
 :root {
     --primary: #348E38;
